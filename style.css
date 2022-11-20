@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -22,7 +23,7 @@
 #cabecalho div a{
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #cabecalho div a:hover{
@@ -34,7 +35,7 @@
     list-style: none;
     gap: 30px;
     margin-right: 50px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #cabecalho nav ul li a{
@@ -45,5 +46,114 @@
     color: blue;
 }
 
+#Sobre-mim{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width:400px;
+}
+.douglasfoto{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 30px; 
+}
+.nome{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(33, 33, 155);
 
+}
+.subtitulo{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(33, 33, 155);
+    font-size: 15px;
+    margin-bottom: 30px;
+    
+}
+.convite{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13px;
+    color: rgb(33, 33, 155);
+    font-weight: bolder;
+  }
+  #social-media{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+  }
+
+  .link{
+    font-size: 35px;
+    text-decoration: none;
+      
+}
+    .linkedin{
+    color: #0e76a8;
+  }
+    .linkedin:hover{
+    color: #004a72;
+  }
+    .instagram{
+    color: #e4405f;
+  }
+    .instagram:hover{
+    color: #992a3e;
+  }
+    .facebook{
+    color: #3b5998;
+  }
+    .facebook:hover{
+    color: #1d2f5b;
+  }
+    .github{
+    color: #333;
+  }
+    .github:hover{
+    color: black;
+  }
+
+  /* Caracteristicas */
+
+  #qualidadesedefeitos{
+    background-color:antiquewhite;
+    margin-top: 30px;
+    padding: 16px 0;
+  }
+  
+  #qualidadesedefeitos h1{
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+  }
+  
+  #qualidadesedefeitos > div{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+  }
+  #defeitos ul{
+    list-style: none;
+    
+}
+ #qualidades ol{
+    list-style: none;
+ }
+
+ #footer{
+    background-color: antiquewhite;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+
+ }
 
