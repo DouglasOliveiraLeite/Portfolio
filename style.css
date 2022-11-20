@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabecalho */
+
+#cabecalho{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  background-color:antiquewhite;
+  justify-content: space-between;
+}
+
+#cabecalho div{
+  margin-left: 50px;
+}
+
+#cabecalho div a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+#cabecalho div a:hover{
+  color: blue;
+}
+
+#cabecalho nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+#cabecalho nav ul li a{
+    text-decoration: none;
+    color: black;
+    }
+#cabecalho nav ul li a:hover{
+    color: blue;
+}
+
+
+
